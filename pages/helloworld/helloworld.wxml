@@ -1,0 +1,35 @@
+<!-- <view>
+<view class='header_box'>
+这是头部
+</view>
+</view> -->
+<view>
+<view class='header_box'>
+{{header_text}}
+</view>
+<!-- <scroll-view 
+style='height:150px' 
+class='scroll' 
+scroll-y bindscrolltoupper='upper' 
+scroll-with-animation
+scroll-into-view="{{toView}}"
+>
+<view id='red' class='scroll_box'>
+红色的
+</view>
+<view id='green' class='scroll_box'>
+绿色的
+</view>
+<view id='blue' class='scroll_box'>
+蓝色的
+</view>
+</scroll-view> -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width: 100%;height:100%'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
