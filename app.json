@@ -1,5 +1,19 @@
 {
   "pages": [
-    "pages/helloworld/helloworld"
-  ]
+    "pages/helloworld/helloworld",
+    "pages/yjct/yjct",
+    "pages/ymg/ymg",
+    "pages/bry/bry",
+    "pages/dxgc/dxgc",
+    "pages/zgg/zgg",
+    "pages/dxms/dxms"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#eeeeee",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "代县游记",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  }
 }
