@@ -24,13 +24,53 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "雁门关",
+					"pathName": "pages/ymg/ymg",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "白仁岩",
+					"pathName": "pages/bry/bry",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "赵杲观",
+					"pathName": "pages/zgg/zgg",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "杨家祠堂",
+					"pathName": "pages/yjct/yjct",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "特色特产",
+					"pathName": "pages/dxms/dxms",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "代县古城",
+					"pathName": "pages/dxgc/dxgc"
+				}
+			]
 		}
 	}
 }

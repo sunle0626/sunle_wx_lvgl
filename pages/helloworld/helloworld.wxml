@@ -6,21 +6,23 @@
       </swiper-item>
     </block>
   </swiper>
-  <view class="btn-area list_nav">
-    <navigator url="../ymg/ymg" hover-class="navigator-hover" class='nav_list'>雁门关</navigator>
-    <navigator url="../bry/bry" hover-class="navigator-hover" class='nav_list'>白人岩</navigator>
-    <navigator url="../zgg/zgg" hover-class="navigator-hover" class='nav_list'>赵杲观</navigator>
-    <navigator url="../yjct/yjct" hover-class="navigator-hover" class='nav_list'>杨家祠堂</navigator>
-    <navigator url="../dxgc/dxgc" hover-class="navigator-hover" class='nav_list'>代县古城</navigator>
-    <navigator url="../dxms/dxms" hover-class="navigator-hover" class='nav_list'>特色特产</navigator>
-  </view>
-  <view>
+  <view class="con_box">
+    <view class="btn-area list_nav">
+      <navigator url="../ymg/ymg" hover-class="navigator-hover" class='nav_list'>雁门关</navigator>
+      <navigator url="../bry/bry" hover-class="navigator-hover" class='nav_list'>白人岩</navigator>
+      <navigator url="../zgg/zgg" hover-class="navigator-hover" class='nav_list'>赵杲观</navigator>
+      <navigator url="../yjct/yjct" hover-class="navigator-hover" class='nav_list'>杨家祠堂</navigator>
+      <navigator url="../dxgc/dxgc" hover-class="navigator-hover" class='nav_list'>代县古城</navigator>
+      <navigator url="../dxms/dxms" hover-class="navigator-hover" class='nav_list'>特色特产</navigator>
+    </view>
     <view class="tit">
-      <view class="tit_top">欢迎使用本小程序</view>
+      <view class="tit_top">欢迎使用本微信小程序</view>
       <view>这是一个代县旅游攻略的合集</view>
       <view>部分图片、资料均来自网络</view>
+      <view>攻略由小程序作者撰写,如有误差，还请联系作者进行更改</view>
     </view>
   </view>
+  <view></view>
   <view class="content">
     <view class="content_zj">
       <view class="zj_tit">走进代县</view>
@@ -28,6 +30,40 @@
         <view class="zj_list_tit">{{item.tit}}</view>
         <view class="zj_list_txt">{{item.txt}}</view>
       </block>
+    </view>
+    <view class="content_nav">
+      <view class="btn-area list_content_nav">
+        <navigator url="../ymg/ymg" hover-class="navigator-hover" class='content_nav_list'>
+          雁门关
+        </navigator>
+        <navigator url="../bry/bry" hover-class="navigator-hover" class='content_nav_list'>
+          白人岩
+        </navigator>
+        <navigator url="../zgg/zgg" hover-class="navigator-hover" class='content_nav_list'>
+          赵杲观
+        </navigator>
+        <navigator url="../yjct/yjct" hover-class="navigator-hover" class='content_nav_list'>
+          杨家祠堂
+        </navigator>
+        <navigator url="../dxgc/dxgc" hover-class="navigator-hover" class='content_nav_list'>
+          代县古城
+        </navigator>
+        <navigator url="../dxms/dxms" hover-class="navigator-hover" class='content_nav_list'>
+          特色特产
+        </navigator>
+      </view>
+    </view>
+    <view class="content_lx">
+      <view class="lx_tit">点击导航,查看攻略</view>
+      <view class="lx_tit">联系作者,添加攻略</view>
+      <view class="lx_img">
+        <image src="{{wx_m}}" bindtap="previewImage" />
+        <view class="lx_txt">扫一扫识别二维码</view>
+        <view class="lx_txt">
+          或添加作者微信号:
+          <text selectable="{{true}}">daixianfangyuansl</text>
+        </view>
+      </view>
     </view>
   </view>
 </view>

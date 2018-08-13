@@ -6,7 +6,8 @@
     "pages/bry/bry",
     "pages/dxgc/dxgc",
     "pages/zgg/zgg",
-    "pages/dxms/dxms"
+    "pages/dxms/dxms",
+    "pages/user/user"
   ],
   "window": {
     "navigationBarBackgroundColor": "#eeeeee",
